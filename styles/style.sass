@@ -1,0 +1,62 @@
+*
+    box-sizing: border-box
+
+body
+    margin: 23% 30%
+    overflow: hidden
+    background: linear-gradient(90deg, #fcff9e 0%, #c67700 100%);
+    font-family: "Roboto", sans-serif
+
+header
+    position: fixed
+    width: 100%
+    top: 1rem
+    left: 25%
+
+nav 
+    display: inline-flex
+    position: relative
+    overflow: hidden
+    background-color: #fff
+    border-radius: 50px
+    box-shadow: 0 10px 40 px rgba(159, 162, 177, .8)
+
+.nav-item
+    color: #83818C
+    float: left
+    display: block
+    text-align: center
+    padding: 20px 26px
+    text-decoration: none
+    font-size: 16px
+    font-family: 
+    transition: .3s
+    margin: 0 6px
+    z-index: 1
+    font-weight: 500
+    position: relative
+
+.nav-item::before
+    content: ''
+    position: absolute
+    bottom: -6px
+    left: 0
+    width: 100%
+    height: 5px
+    background-color: #dfe2ea
+    border-radius: 8px 8px 0 0 
+    opacity: 0
+    transition: .3s
+
+.nav-item:not(.active):hover
+    color: #333
+
+.indicator
+    position: absolute
+    left: 0
+    bottom: 0
+    height: 4px
+    transition: .4s
+    height: 4px
+    z-index: 1
+    border-radius: 8px 8px 0 0 
