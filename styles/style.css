@@ -1,8 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
 body {
     font-family: 'Raleway', sans-serif;
     background: rgb(238,174,202);
     background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
-
 }
 
 .cover{
@@ -18,5 +23,51 @@ body {
 
 .phone i{
     color: #000;
+}
 
+.phone a{
+    color: #000;
+    font-size: 13px;
+    font-weight: bold;
+}
+.reg{
+    width: 50%;
+    text-align: right;
+}
+
+.reg a{
+    color:#000;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+}
+.social-icon{
+    display:inline-block;
+    width: 50%;
+}
+
+.social-icon p{
+    display: block;
+    width: 100%;
+}
+
+.social-icon p a{
+    height: 30px;
+    margin-right: 10px;
+
+}
+
+.social-icon p a i{
+    font-size: 13px;
+    color: #000;
+}
+
+.social-icon p a:hover{
+    background: #f2f2f2;
+    border-color: #f2f2f2;
+}
+
+.social-icon p a:hover i{
+    color: coral;
 }
