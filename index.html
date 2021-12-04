@@ -6,7 +6,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="styles/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Icons -->
+    <script src="https://kit.fontawesome.com/c6df413370.js" crossorigin="anonymous"></script>
+    <!-- Font  -->
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap" rel="stylesheet">
     <!-- Bootstrap CSS v5.0.2 -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -19,11 +21,11 @@
                       <div class="col-md-6 d-flex align-items-center">
                             <p class="mb-0 phone pl-md-2">
                                 <a href="#" class="mr-2">
-                                    <i class="fa fa-phone mr-1"></i>
+                                    <i class="fas fa-phone mr-1"></i>
                                     +46 71 284 218
                                 </a>
-                            <a href="#"><i class="fa fa-envelope-o mr-1"></i>
-                            email@email.com
+                            <a href="mailto:email@email.com"><i class="fa fa-envelope-o mr-1"></i>
+                             email@email.com
                             </a>
                             </p>
                         </div>
@@ -32,16 +34,16 @@
                                 <p class="mb-0 d-flex">
                                 <a href="#" class="d-flex align-items-center 
                                     justify-content-center">
-                                <i class="fa fa-instagram"></i></a>
+                                <i class="fab fa-instagram"></i></a>
                                 <a href="#" class="d-flex align-items-center 
                                     justify-content-center">
-                                <i class="fa fa-pinterest"></i></a>
+                                <i class="fab fa-pinterest"></i></a>
                                 <a href="#" class="d-flex align-items-center 
                                     justify-content-center">
-                                <i class="fa fa-twitter"></i></a>
+                                <i class="fab fa-twitter"></i></a>
                                 <a href="#" class="d-flex align-items-center 
                                     justify-content-center">
-                                <i class="fa fa-facebook-square"></i></a>
+                                <i class="fab fa-facebook-square"></i></a>
                                 </p>
                             </div>
                             <div class="reg">
@@ -53,19 +55,69 @@
               </div>
           </div>
           <!--Nav-->
-          <nav class="navbar navbar-expand-lg main-mainbar bg-color main-navbar-color" 
-          id="main-navbar">
-          <div class="container">
-              <a href="logo.PQ9" class="navbar-brand">Stures Ostar</a>
-              div.
-          </div>
+        <nav class="navbar navbar-expand-lg main-navbar bg-color main-navbar-color"
+        id="main-navbar">
+        <div class="container">
+            <a href="#" class="pull-left logo-bg"><img src="./images/brand.png"></a>
+            <div class="order-lg-last btn-group">
+                <i class="fa fa-shopping-basket fa-2x"></i>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNav" aria-controls="nav" aria-expanded="false" aria-label="Toggle Navigation">
+                <i class="fa fa-bars"></i></button>
+        <div class="collapse navbar-collapse" id="myNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Home</a>
+                <li class="nav-item">
+                    <a href="./order.html" class="nav-link">Dishes</a>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Gallery</a>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">About</a>
+                <li class="nav-item">
+                    <a href="./reservation.html" class="nav-link">Reservation</a>
+                </li>
+            </ul>
+        </div>
+        </div>
         </nav>
-      </section>
+        <!-- End Of Nav -->
+    </section>
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-container">
+            <div class="hero-logo">
+                <h1 class="fw-bold h1-border">Take Away</h1>
+            </div>
+            <h2 class="fw-bold">Healthy. Fresh. Tasty</h2>
+            <div class="actions">
+                <a href="./order.html" class="btn-get-started bg-warning">Order Now</a>
+            </div>
+        </div>
+    </section>
+    <!-- End of Hero -->
+
+    <section id="subscribe" class="py-5">
+        <div class="container bg-subscribe">
+            <div class="row align-item-center my-5">
+                <div class="col-sm-10 mx-auto-text-center mb-5">
+                    <h4 class="display-3 mb-5 text-uppercase text-white text-center">
+                        Subscribe & get access to limited deals
+                    </h4>
+                    <form class="form-inline d-flex justify-content-center">
+                        <input type="text" class="form-control w-50" placeholder="Email">
+                        <button class="btn form-btn m-1">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
 
     <!-- Bootstrap JavaScript Libraries -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-  </body>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>    
+    </body>
 </html>
